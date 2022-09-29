@@ -3,7 +3,7 @@ let user = {
   age: 30,
 };
 
-let newUser = something(user);
+let newUser = { ...user };
 
 newUser.name = "Paolo";
 
